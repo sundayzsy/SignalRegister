@@ -1,0 +1,764 @@
+{
+    "ServerAddress": "222",
+    "FunctionCode": "23",
+    "ReadStartAddress": "0",
+    "WriteStartAddress": "500",
+	"SignalArray": [
+		{
+			"ParamName": "NES001VB阀开状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于开位0：阀门不处于开位",
+			"Length": "1",
+			"BitPos": "0",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "NES001VB阀关状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于关位0：阀门不处于关位",
+			"Length": "1",
+			"BitPos": "1",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "NES001VB就地/远程状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门就地控制0：阀门远程控制",
+			"Length": "1",
+			"BitPos": "2",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "NES001VB开阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需开启0：阀门不动作",
+			"Length": "1",
+			"BitPos": "0",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "NES001VB关阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需关闭0：阀门不动作",
+			"Length": "1",
+			"BitPos": "1",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "SRS003VD阀开状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于开位0：阀门不处于开位",
+			"Length": "1",
+			"BitPos": "3",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "SRS003VD阀关状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于关位0：阀门不处于关位",
+			"Length": "1",
+			"BitPos": "4",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "SRS003VD就地/远程状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门就地控制0：阀门远程控制",
+			"Length": "1",
+			"BitPos": "5",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "SRS003VD开阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需开启0：阀门不动作",
+			"Length": "1",
+			"BitPos": "2",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "SRS003VD关阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需关闭0：阀门不动作",
+			"Length": "1",
+			"BitPos": "3",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "化容系统补水电动截止阀阀开状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于开位0：阀门不处于开位",
+			"Length": "1",
+			"BitPos": "6",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "化容系统补水电动截止阀阀关状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于关位0：阀门不处于关位",
+			"Length": "1",
+			"BitPos": "7",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "化容系统补水电动截止阀就地/远程状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门就地控制0：阀门远程控制",
+			"Length": "1",
+			"BitPos": "8",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "化容系统补水电动截止阀开阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需开启0：阀门不动作",
+			"Length": "1",
+			"BitPos": "4",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "化容系统补水电动截止阀关阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需关闭0：阀门不动作",
+			"Length": "1",
+			"BitPos": "5",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "中间回路补水阀阀开状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于开位0：阀门不处于开位",
+			"Length": "1",
+			"BitPos": "9",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "中间回路补水阀阀关状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于关位0：阀门不处于关位",
+			"Length": "1",
+			"BitPos": "10",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "中间回路补水阀就地/远程状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门就地控制0：阀门远程控制",
+			"Length": "1",
+			"BitPos": "11",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "中间回路补水阀开阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需开启0：阀门不动作",
+			"Length": "1",
+			"BitPos": "6",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "中间回路补水阀关阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需关闭0：阀门不动作",
+			"Length": "1",
+			"BitPos": "7",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "ICS235VB阀开状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于开位0：阀门不处于开位",
+			"Length": "1",
+			"BitPos": "12",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "ICS235VB阀关状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于关位0：阀门不处于关位",
+			"Length": "1",
+			"BitPos": "13",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "ICS235VB就地/远程状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门就地控制0：阀门远程控制",
+			"Length": "1",
+			"BitPos": "14",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "ICS235VB开阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需开启0：阀门不动作",
+			"Length": "1",
+			"BitPos": "8",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "ICS235VB关阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需关闭0：阀门不动作",
+			"Length": "1",
+			"BitPos": "9",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "中间回路补气阀阀开状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于开位0：阀门不处于开位",
+			"Length": "1",
+			"BitPos": "15",
+			"RegisterAddr": "0"
+		},
+		{
+			"ParamName": "中间回路补气阀阀关状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于关位0：阀门不处于关位",
+			"Length": "1",
+			"BitPos": "0",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "中间回路补气阀就地/远程状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门就地控制0：阀门远程控制",
+			"Length": "1",
+			"BitPos": "1",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "中间回路补气阀开阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需开启0：阀门不动作",
+			"Length": "1",
+			"BitPos": "10",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "中间回路补气阀关阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需关闭0：阀门不动作",
+			"Length": "1",
+			"BitPos": "11",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "RHR101VD阀开状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于开位0：阀门不处于开位",
+			"Length": "1",
+			"BitPos": "2",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "RHR101VD阀关状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于关位0：阀门不处于关位",
+			"Length": "1",
+			"BitPos": "3",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "RHR101VD就地/远程状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门就地控制0：阀门远程控制",
+			"Length": "1",
+			"BitPos": "4",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "RHR101VD开阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需开启0：阀门不动作",
+			"Length": "1",
+			"BitPos": "12",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "RHR101VD关阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需关闭0：阀门不动作",
+			"Length": "1",
+			"BitPos": "13",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "RHR201VD阀开状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于开位0：阀门不处于开位",
+			"Length": "1",
+			"BitPos": "5",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "RHR201VD阀关状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于关位0：阀门不处于关位",
+			"Length": "1",
+			"BitPos": "6",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "RHR201VD就地/远程状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门就地控制0：阀门远程控制",
+			"Length": "1",
+			"BitPos": "7",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "RHR201VD开阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需开启0：阀门不动作",
+			"Length": "1",
+			"BitPos": "14",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "RHR201VD关阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需关闭0：阀门不动作",
+			"Length": "1",
+			"BitPos": "15",
+			"RegisterAddr": "500"
+		},
+		{
+			"ParamName": "中间回路补气阀阀开状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于开位0：阀门不处于开位",
+			"Length": "1",
+			"BitPos": "8",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "中间回路补气阀阀关状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门处于关位0：阀门不处于关位",
+			"Length": "1",
+			"BitPos": "9",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "中间回路补气阀就地/远程状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：阀门就地控制0：阀门远程控制",
+			"Length": "1",
+			"BitPos": "10",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "中间回路补气阀开阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需开启0：阀门不动作",
+			"Length": "1",
+			"BitPos": "0",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "中间回路补气阀关阀控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：阀门需关闭0：阀门不动作",
+			"Length": "1",
+			"BitPos": "1",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "1#注硼泵三相电流-1",
+			"Type": "AI",
+			"ServerAddr": "222",
+			"Desc": "0~50.0A",
+			"Length": "16",
+			"BitPos": "0",
+			"RegisterAddr": "3"
+		},
+		{
+			"ParamName": "1#注硼泵三相电流-2",
+			"Type": "AI",
+			"ServerAddr": "222",
+			"Desc": "0~50.0A",
+			"Length": "16",
+			"BitPos": "0",
+			"RegisterAddr": "4"
+		},
+		{
+			"ParamName": "1#注硼泵三相电流-3",
+			"Type": "AI",
+			"ServerAddr": "222",
+			"Desc": "0~50.0A",
+			"Length": "16",
+			"BitPos": "0",
+			"RegisterAddr": "5"
+		},
+		{
+			"ParamName": "1#注硼泵运行状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：泵运行0：泵不在运行",
+			"Length": "1",
+			"BitPos": "11",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "1#注硼泵停运状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：泵停止0：泵不处于停止",
+			"Length": "1",
+			"BitPos": "12",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "1#注硼泵就地/远程状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：泵就地控制0：泵远程控制",
+			"Length": "1",
+			"BitPos": "13",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "1#注硼泵启动控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：泵需启动0：泵不动作",
+			"Length": "1",
+			"BitPos": "2",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "1#注硼泵停止控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：泵需停止0：泵不动作",
+			"Length": "1",
+			"BitPos": "3",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "1#设备冷却水循环泵三相电流-1",
+			"Type": "AI",
+			"ServerAddr": "222",
+			"Desc": "0~50.0A",
+			"Length": "16",
+			"BitPos": "0",
+			"RegisterAddr": "6"
+		},
+		{
+			"ParamName": "1#设备冷却水循环泵三相电流-2",
+			"Type": "AI",
+			"ServerAddr": "222",
+			"Desc": "0~50.0A",
+			"Length": "16",
+			"BitPos": "0",
+			"RegisterAddr": "7"
+		},
+		{
+			"ParamName": "1#设备冷却水循环泵三相电流-3",
+			"Type": "AI",
+			"ServerAddr": "222",
+			"Desc": "0~50.0A",
+			"Length": "16",
+			"BitPos": "0",
+			"RegisterAddr": "8"
+		},
+		{
+			"ParamName": "1#设备冷却水循环泵运行状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：泵运行0：泵不在运行",
+			"Length": "1",
+			"BitPos": "14",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "1#设备冷却水循环泵停运状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：泵停止0：泵不处于停止",
+			"Length": "1",
+			"BitPos": "15",
+			"RegisterAddr": "1"
+		},
+		{
+			"ParamName": "1#设备冷却水循环泵就地/远程状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：泵就地控制0：泵远程控制",
+			"Length": "1",
+			"BitPos": "0",
+			"RegisterAddr": "2"
+		},
+		{
+			"ParamName": "1#设备冷却水循环泵启动控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：泵需启动0：泵不动作",
+			"Length": "1",
+			"BitPos": "4",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "1#设备冷却水循环泵停止控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：泵需停止0：泵不动作",
+			"Length": "1",
+			"BitPos": "5",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "一回路补水泵三相电流-1",
+			"Type": "AI",
+			"ServerAddr": "222",
+			"Desc": "0~50.0A",
+			"Length": "16",
+			"BitPos": "0",
+			"RegisterAddr": "9"
+		},
+		{
+			"ParamName": "一回路补水泵三相电流-2",
+			"Type": "AI",
+			"ServerAddr": "222",
+			"Desc": "0~50.0A",
+			"Length": "16",
+			"BitPos": "0",
+			"RegisterAddr": "10"
+		},
+		{
+			"ParamName": "一回路补水泵三相电流-3",
+			"Type": "AI",
+			"ServerAddr": "222",
+			"Desc": "0~50.0A",
+			"Length": "16",
+			"BitPos": "0",
+			"RegisterAddr": "11"
+		},
+		{
+			"ParamName": "一回路补水泵运行状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：泵运行0：泵不在运行",
+			"Length": "1",
+			"BitPos": "1",
+			"RegisterAddr": "2"
+		},
+		{
+			"ParamName": "一回路补水泵停运状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：泵停止0：泵不处于停止",
+			"Length": "1",
+			"BitPos": "2",
+			"RegisterAddr": "2"
+		},
+		{
+			"ParamName": "一回路补水泵就地/远程状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：泵就地控制0：泵远程控制",
+			"Length": "1",
+			"BitPos": "3",
+			"RegisterAddr": "2"
+		},
+		{
+			"ParamName": "一回路补水泵启动控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：泵需启动0：泵不动作",
+			"Length": "1",
+			"BitPos": "6",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "一回路补水泵停止控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：泵需停止0：泵不动作",
+			"Length": "1",
+			"BitPos": "7",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "废水泵三相电流-1",
+			"Type": "AI",
+			"ServerAddr": "222",
+			"Desc": "0~50.0A",
+			"Length": "16",
+			"BitPos": "0",
+			"RegisterAddr": "12"
+		},
+		{
+			"ParamName": "废水泵三相电流-2",
+			"Type": "AI",
+			"ServerAddr": "222",
+			"Desc": "0~50.0A",
+			"Length": "16",
+			"BitPos": "0",
+			"RegisterAddr": "13"
+		},
+		{
+			"ParamName": "废水泵三相电流-3",
+			"Type": "AI",
+			"ServerAddr": "222",
+			"Desc": "0~50.0A",
+			"Length": "16",
+			"BitPos": "0",
+			"RegisterAddr": "14"
+		},
+		{
+			"ParamName": "废水泵运行状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：泵运行0：泵不在运行",
+			"Length": "1",
+			"BitPos": "4",
+			"RegisterAddr": "2"
+		},
+		{
+			"ParamName": "废水泵停运状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：泵停止0：泵不处于停止",
+			"Length": "1",
+			"BitPos": "5",
+			"RegisterAddr": "2"
+		},
+		{
+			"ParamName": "废水泵就地/远程状态",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "1：泵就地控制0：泵远程控制",
+			"Length": "1",
+			"BitPos": "6",
+			"RegisterAddr": "2"
+		},
+		{
+			"ParamName": "废水泵启动控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：泵需启动0：泵不动作",
+			"Length": "1",
+			"BitPos": "8",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "废水泵停止控制",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "1：泵需停止0：泵不动作",
+			"Length": "1",
+			"BitPos": "9",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "DI备用7",
+			"Type": "DI",
+			"ServerAddr": "222",
+			"Desc": "备用",
+			"Length": "1",
+			"BitPos": "7",
+			"RegisterAddr": "2"
+		},
+		{
+			"ParamName": "DO备用10",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "备用",
+			"Length": "1",
+			"BitPos": "10",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "DO备用11",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "备用",
+			"Length": "1",
+			"BitPos": "11",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "DO备用12",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "备用",
+			"Length": "1",
+			"BitPos": "12",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "DO备用13",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "备用",
+			"Length": "1",
+			"BitPos": "13",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "DO备用14",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "备用",
+			"Length": "1",
+			"BitPos": "14",
+			"RegisterAddr": "501"
+		},
+		{
+			"ParamName": "DO备用15",
+			"Type": "DO",
+			"ServerAddr": "222",
+			"Desc": "备用",
+			"Length": "1",
+			"BitPos": "15",
+			"RegisterAddr": "501"
+		}
+	]
+}
